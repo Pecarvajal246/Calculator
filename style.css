@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  width: 20rem;
+  flex-direction: column;
+  background-color: lightBlue;
+  padding: 10px;
+  gap: 4px;
+}
+
+.display {
+  width: 20rem;
+  height: 2rem;
+  background-color: lightGrey;
+  border: 1px solid #000;
+  text-align: right;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.buttons {
+  width: 20rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2%;
+}
+
+.div {
+  grid-column: 4;
+  grid-row: 1;
+}
+.mult {
+  grid-column: 4;
+  grid-row: 2;
+}
+.sub {
+  grid-column: 4;
+  grid-row: 3;
+}
+.add {
+  grid-column: 4;
+  grid-row: 4;
+}
+.num0 {
+  grid-column: 1;
+}
+
+.clear {
+  background-color: lightGrey;
+}
